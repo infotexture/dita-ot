@@ -11,19 +11,6 @@ dt.prereq {
   margin-left: 20px;
 }
 
-/* All note formats have the same default presentation */
-.note {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  .notetitle,
-  .note__title {
-    font-weight: bold;
-  }
-  .notelisttitle {
-    @extend .notetitle;
-  }
-}
-
 /* Used on the first column of a table, when rowheader="firstcol" is used */
 .firstcol {
   font-weight: bold;

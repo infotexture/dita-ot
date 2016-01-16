@@ -1,0 +1,55 @@
+// Sass partial for heading (title) styles
+
+/* Set heading sizes, getting smaller for deeper nesting */
+.topictitle1 {
+  margin-top: 0;
+  margin-bottom: .1em;
+  font-size: 1.34em;
+}
+
+.topictitle2 {
+  margin-top: 1pc;
+  margin-bottom: .45em;
+  font-size: 1.17em;
+}
+
+.topictitle3 {
+  margin-top: 1pc;
+  margin-bottom: .17em;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.topictitle4 {
+  margin-top: .83em;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.topictitle5 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.topictitle6 {
+  font-size: 1.17em;
+  font-style: italic;
+}
+
+.sectiontitle {
+  margin-top: 1em;
+  margin-bottom: 0;
+  color: black;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.section {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.example {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

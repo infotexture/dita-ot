@@ -62,3 +62,8 @@ table {
 .table-rules-bottom {
   border-bottom: solid 1px;
 }
+
+/* Used on the first column of a table, when rowheader="firstcol" is used */
+.firstcol {
+  font-weight: bold;
+}

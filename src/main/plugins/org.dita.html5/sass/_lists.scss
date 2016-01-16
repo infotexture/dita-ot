@@ -1,0 +1,55 @@
+// Sass partial for list styles
+
+/* Simple lists do not get a bullet */
+ul.simple {
+  list-style-type: none;
+}
+
+/* Default of bold for definition list terms */
+.dlterm {
+  font-weight: bold;
+}
+
+/* Use CSS to expand lists with @compact="no" */
+.dltermexpand {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+*[compact="yes"] > li {
+  margin-top: 0;
+}
+
+*[compact="no"] > li {
+  margin-top: .53em;
+}
+
+.liexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.sliexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.dlexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.ddexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.stepexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.substepexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

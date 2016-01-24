@@ -13,37 +13,37 @@ table {
    but this causes a barely visible line in IE */
 
 .cellrowborder {
-  border-left: none;
-  border-top: none;
-  border-right: solid 1px;
   border-bottom: solid 1px;
+  border-left: 0;
+  border-right: solid 1px;
+  border-top: 0;
 }
 
 .row-nocellborder {
-  border-left: none;
-  border-top: none;
-  border-right: hidden;
   border-bottom: solid 1px;
+  border-left: 0;
+  border-right: hidden;
+  border-top: 0;
 }
 
 .cell-norowborder {
-  border-top: none;
-  border-left: none;
   border-bottom: hidden;
+  border-left: 0;
   border-right: solid 1px;
+  border-top: 0;
 }
 
 .nocellnorowborder {
-  border: none;
-  border-right: hidden;
+  border: 0;
   border-bottom: hidden;
+  border-right: hidden;
 }
 
 .table-border {
-  border-top: solid 1px;
-  border-right: solid 1px;
   border-bottom: solid 1px;
   border-left: solid 1px;
+  border-right: solid 1px;
+  border-top: solid 1px;
 }
 
 .table-rules-all {
@@ -51,8 +51,8 @@ table {
 }
 
 .table-rules-sides {
-  border-right: solid 1px;
   border-left: solid 1px;
+  border-right: solid 1px;
 }
 
 .table-rules-top {
